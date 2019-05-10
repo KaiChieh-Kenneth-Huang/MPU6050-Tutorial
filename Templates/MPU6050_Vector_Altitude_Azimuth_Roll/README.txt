@@ -1,0 +1,1 @@
+This sketch contains classes for acquiring the altitude, azimuth, and roll of the MPU6050 with respect to a user-defined reference vector. Please view the figures included in this folder for more details.
