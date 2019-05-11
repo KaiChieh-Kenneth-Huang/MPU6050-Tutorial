@@ -542,9 +542,9 @@ void printWorldAccel()
 void setup() {
   Serial.begin(115200); //115200
   while (!Serial);
-  Serial.println("ssi2cSetup");
+  Serial.println("i2cSetup");
   i2cSetup();
-  Serial.println("ssMPU6050Connect");
+  Serial.println("MPU6050Connect");
   MPU6050Connect();
   Serial.println("Setup complete");
   pinMode(LED_PIN, OUTPUT);
